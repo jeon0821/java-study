@@ -7,6 +7,9 @@ public class StringExample {
 
         String str = "나는 \"자바\"를 좋아합니다.";
         System.out.println(str);
+
+        String str2 = "번호\t이름\t나이";
+        System.out.println(str2);
     }
     
 }
