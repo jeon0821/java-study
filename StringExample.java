@@ -10,6 +10,9 @@ public class StringExample {
 
         String str2 = "번호\t이름\t나이";
         System.out.println(str2);
+
+        String str3 = "홍길동\n김자바";
+        System.out.println(str3);
     }
     
 }
