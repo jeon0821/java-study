@@ -17,5 +17,18 @@ public class Star {
             }
             System.out.println();
         }
+
+        int x=1;
+        for(int i=0; i<6; i++){
+            for(int n=5; n>i; n--){
+                System.out.println(" ");
+            }
+            for(int m=0; m<x; m++){
+                System.out.println("*");
+            }
+
+            x=x+2; // 별을 홀수로 출력함
+            System.out.println();
+        }
         }
     }
