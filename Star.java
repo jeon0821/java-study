@@ -30,5 +30,30 @@ public class Star {
             x=x+2; // 별을 홀수로 출력함
             System.out.println();
         }
+
+        int y=1;
+        for(int i=0; i<6; i++){
+            for(int n=5; n>1; n--){
+                System.out.println(" ");
+            }
+            for(int m=0; m<y; m++){
+                System.out.println("*");
+            }
+            
+            y=y+2;
+            System.out.println();
+        }
+        int z=9;
+        for(int i=0; i<6; i++){
+            for(int p=0; p<=i; p++){
+                System.out.println(" ");
+            }
+            for(int k=z; k>0; k--){
+                System.out.println("*");
+            }
+
+            z=z-2;
+            System.out.println();
         }
     }
+}
