@@ -19,6 +19,11 @@ public class ByteOperationExample {
         int intValue = 10;
         double doubleValue = 5.5;
         double result = intValue + doubleValue;
+
+        // 꼭 int 타입으로 연산을 해야 한다면 double 타입 -> int 타입
+        int intValue = 10;
+        double doubleValue = 5.5;
+        int result = intValue + (int)doubleValue;
     }
     
 }
