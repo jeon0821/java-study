@@ -14,6 +14,11 @@ public class ByteOperationExample {
         long value3 = 1000L;
         long result = value1 + value2 + value3;
         System.out.println(result);
+
+        // 실수 연산에서의 자동 타입 변환
+        int intValue = 10;
+        double doubleValue = 5.5;
+        double result = intValue + doubleValue;
     }
     
 }
