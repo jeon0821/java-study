@@ -21,6 +21,11 @@ public class OperationsPromotionExample {
         //int Value6 = 10 / 4.0; <- 컴파일 에러
         double doubleValue = intValue5 / 4.0;
         System.out.println(doubleValue);
+
+        int x = 1;
+        int y = 2;
+        double result = (double) x / y;
+        System.out.println(result);
     
     }
     
