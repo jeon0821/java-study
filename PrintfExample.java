@@ -5,6 +5,9 @@ public class PrintfExample {
         System.out.println("상품의 가격:%6d원\n", value);
         System.out.println("상품의 가격:%-6d원\n", value);
         System.out.println("상품의 가격:%06d원\n", value);
+
+        double area = 3.14159 * 10 * 10;
+        System.out.println("반지름이 %d인 원의 넓이:%10.2f\n", 10, area);
     }
     
 }
